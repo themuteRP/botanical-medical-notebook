@@ -1,0 +1,88 @@
+html, body {
+	height: 99%;
+	font-family: 'My Underwood';
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex ;
+  height: 600px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 50px;
+  overflow: none;
+}
+.header {
+height: 20px;
+margin: none;
+}
+.footer {
+height: 20px;
+margin: none;
+}
+
+/* Text book */
+.rowT {
+	display: block;
+	width: 100%;
+	height: 80%;
+	margin: none;
+}
+.headerT {
+height: 10%;
+}
+.footerT {
+height: 10%;
+vertical-align: middle;
+text-align: center;
+}
+#_nav, #_content {
+  float: left;
+}
+
+#_nav {
+  width: 25%;
+  height: 100%;
+}
+#_content {
+  width: 75%;
+  height: 100%;
+}
+#uses {
+	font-size: 0.8em;
+}
+
+.i {
+	font-style: italic;
+}
+.image {
+	width: 100%;
+}
+img {
+	align: center;
+	max-width: 100%;
+	filter: sepia(80%);
+}
+iframe {
+	border: none;
+	box-sizing: border-box;
+	}
+	
+a { color: #009; } /* CSS link color */
