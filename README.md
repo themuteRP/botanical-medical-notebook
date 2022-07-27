@@ -1,7 +1,8 @@
 # botanical-medical-notebook
-The notebook of Einín Springs.
+### The notebook of Einín Springs.
+
 ==========================
-**You will need the font 'My Underwood' to display the book properly.**
+**You will need the font 'My Underwood' to display the book properly.** 
 You can acquire the font from this URL: https://www.dafont.com/my-underwood.font
 
 # Credits
