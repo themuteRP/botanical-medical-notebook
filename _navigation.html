@@ -11,10 +11,15 @@ input[type=checkbox] {
 label { 
   -webkit-appearance: push-button;
   -moz-appearance: button; 
+  width: 100%;
   display: inline-block;
   margin: 8px 0 8px 0;
-  border: 3px inset red;
-  padding: 4px 5px 4px 5px;
+  border: 3px outset;
+  padding: 8px 5px 8px 8px;
+  background-color: #f9f9f9;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -50,7 +55,12 @@ li {
 <body>
 <h3>Navigation:</h3>
 
-<div><a href="./_intro.html" target="_content">Preface</a></div>
+<div>
+	<label>
+		<a href="./_intro.html" target="_content">Preface</a>
+	</label>
+
+</div>
 
 <div>
 
