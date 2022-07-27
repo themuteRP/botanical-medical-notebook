@@ -12,7 +12,9 @@ label {
   -webkit-appearance: push-button;
   -moz-appearance: button; 
   display: inline-block;
-  margin: 60px 0 10px 0;
+  margin: 8px 0 8px 0;
+  border: 3px inset red;
+  padding: 4px 5px 4px 5px;
   cursor: pointer;
 }
 
@@ -30,9 +32,17 @@ input[id=medicine]:checked ~ .medicineNav {
    display: block;
 }
 
+.preparationNav {
+	display: none;
+}
+input[id=preparation]:checked ~ .preparationNav {
+   display: block;
+}
+
 
 li {
 	font-size: 0.8em;
+	padding-bottom: 4px;
 }
 </style>
 <link rel="stylesheet" href="./_textbookstyle.css" />
@@ -107,6 +117,21 @@ li {
 
 	<!-- 
 	<li><a href="./plants/.html" target="_content"> </a></li>
+	-->
+
+
+	</ul>
+</div>
+
+<div>
+
+	<label for="preparation">Preparations</label>
+	<input type="checkbox" id="preparation">
+	<ul class="preparationNav">
+	<li><a href="./preps/salve-soap.html" target="_content">Salve Soap</a></li>
+
+	<!-- 
+	<li><a href="./preps/.html" target="_content"> </a></li>
 	-->
 
 
