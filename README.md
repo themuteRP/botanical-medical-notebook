@@ -16,4 +16,9 @@ Dr. Einín Springs
 * Dr. Jerry Springs,
 * Dr. Casey Fletcher,
 * Dr. Colt Milten,
-* Dr. Homer Henderson
+* Dr. Homer Henderson,
+* Deputy B. Faraday,
+* Captain D. Normus,
+* C. & R. Starling,
+* M. Williams,
+* M. Whitlock
