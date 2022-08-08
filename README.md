@@ -12,13 +12,14 @@ You can acquire the font from this URL: https://www.dafont.com/my-underwood.font
 Dr. Einín Springs
 
 ## Contributions (data, images or IC help):
-* CMO Lucius Whitlock,
-* Dr. Jerry Springs,
-* Dr. Casey Fletcher,
-* Dr. Colt Milten,
-* Dr. Homer Henderson,
+* CMO L. Whitlock,
+* Dr. J. Springs,
+* Dr. C. Fletcher,
+* Dr. C. Milten,
+* Dr. H. Henderson,
 * Deputy B. Faraday,
 * Captain D. Normus,
 * C. & R. Starling,
 * M. Williams,
 * M. Whitlock
+* Rosa
