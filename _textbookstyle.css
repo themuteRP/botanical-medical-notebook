@@ -75,9 +75,13 @@ text-align: center;
 .image {
 	width: 100%;
 }
+.disclaimer {
+	font-size: 0.9em;
+}
 img {
 	align: center;
 	max-width: 100%;
+	max-width: 300px;
 	filter: sepia(80%);
 }
 iframe {
@@ -85,4 +89,10 @@ iframe {
 	box-sizing: border-box;
 	}
 	
-a { color: #229;  letter-spacing: 1px; } /* CSS link color */
+a {
+	color: #000;
+	letter-spacing: 1px;
+	background-color: rgba(255,255,255,0.15);
+	padding: 2px;
+	font-weight: 700;
+} 
