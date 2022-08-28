@@ -3,11 +3,19 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/*
 input[type=checkbox] {
    position: absolute;
    top: -9999px;
    left: -9999px;
 }
+*/
+
+input[type=checkbox] {
+	content: "";
+	display: none;
+}
+
 label { 
   -webkit-appearance: push-button;
   -moz-appearance: button; 
@@ -41,6 +49,13 @@ input[id=medicine]:checked ~ .medicineNav {
 	display: none;
 }
 input[id=preparation]:checked ~ .preparationNav {
+   display: block;
+}
+
+.glossaryNav {
+	display: none;
+}
+input[id=glossary]:checked ~ .glossaryNav {
    display: block;
 }
 
@@ -121,6 +136,7 @@ li {
 	<li><a href="./plants/creepingthyme.html" target="_content">Creeping Thyme</a></li>
 	<li><a href="./plants/desertsage.html" target="_content">Desert Sage</a></li>
 	<li><a href="./plants/englishmace.html" target="_content">English Mace</a></li>
+	<li><a href="./plants/hops.html" target="_content">Hops</a></li>
 	<li><a href="./plants/hummingbirdsage.html" target="_content">Hummingbird Sage</a></li>
 	<li><a href="./plants/indianpipe.html" target="_content">Indian Pipe</a></li>
 	<li><a href="./plants/indiantobacco.html" target="_content">Indian Tobacco</a></li>
@@ -251,6 +267,32 @@ li {
 	
 	<li><a href="./medicine/.html" target="_content"> </a></li>
 	-->
+
+
+	</ul>
+</div>
+
+
+<div>
+
+	<label for="glossary">Glossary</label>
+	<input type="checkbox" id="glossary">
+	<ul class="glossaryNav">
+
+	
+
+	
+	<!-- 
+	==============================================================
+	-->
+	<li><a href="./defs/def_abc.html" target="_content"> Definitions A, B, C</a></li>
+	<li><a href="./defs/def_def.html" target="_content"> Definitions D, E, F</a></li>
+	<li><a href="./defs/def_ghi.html" target="_content"> Definitions G, H, I</a></li>
+	<li><a href="./defs/def_jkl.html" target="_content"> Definitions J, K, L</a></li>
+	<li><a href="./defs/def_mno.html" target="_content"> Definitions M, N, O</a></li>
+	<li><a href="./defs/def_pqr.html" target="_content"> Definitions P, Q, R</a></li>
+	<li><a href="./defs/def_stu.html" target="_content"> Definitions S, T, U</a></li>
+	<li><a href="./defs/def_vwxyz.html" target="_content"> Definitions V, W, X, Y, Z</a></li>
 
 
 	</ul>
