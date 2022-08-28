@@ -15,11 +15,12 @@ Dr. Einín Springs
 * CMO L. Whitlock,
 * Dr. J. Springs,
 * Dr. C. Fletcher,
-* Dr. C. Milten,
 * Dr. H. Henderson,
 * Deputy B. Faraday,
 * Captain D. Normus,
 * C. & R. Starling,
 * M. Williams,
-* M. Whitlock
-* Rosa
+* M. Whitlock,
+* C. Milten,
+* Rosa,
+* C. Bill
