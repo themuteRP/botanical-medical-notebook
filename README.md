@@ -23,4 +23,8 @@ Dr. Einín Springs
 * M. Whitlock,
 * C. Milten,
 * Rosa,
-* C. Bill
+* C. Bill,
+* R. Riggs,
+* L. Ragan,
+* V. Dean,
+* S. O'Malley
